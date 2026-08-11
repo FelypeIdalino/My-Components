@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Projeto My Components</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="header--nav">
+
+            <a href="#" class="nav--logo">
+                <img src="imagens/perfil.png" alt="omanolá">
+            </a>
+
+            <ul class="nav-menu">
+                <li class="nav--menu__item"><a href="index.html">Home</a></li>
+                <li class="nav--menu__item"><a href="tipografia.html">Tipografia</a></li>
+                <li class="nav--menu__item"><a href="cards.html">Cards</a></li>
+                <li class="nav--menu__item"><a href="listas.html">Listas</a></li>
+                <li class="nav--menu__item"><a href="form.html">Formularios</a></li>
+                <li class="nav--menu__item"><a href="button.html">Botões</a></li>
+                <li class="nav--menu__item"><a href="table.html">Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="title">My contents</h1>
+
+
+        <section>
+
+            <div class="row">
+
+                <form action="#" class="form" autocomplete="off">
+                    <fieldset class="form-fieldset">
+                        <legend class="subject-title legend">Entre em contato</legend>
+
+                        <div class="row">
+                            <div class="container_content">
+                                <label for="nome" class="form_label">Nome</label>
+                                <input type="text" class="form_input" placeholder="Digite seu nome" name="nome" id="nome">
+                            </div>
+
+                            <div class="container_content">
+                                <label for="email" class="form_label">Email</label>
+                                <input type="email" class="form_input" name="email" id="email">
+                            </div>
+                        </div>
+
+                        <label for="t-area" class="form_label">Digite Sua Mensagem</label>
+                        <textarea name="t-area" id="t-area" rows="8" cols="60"></textarea>
+
+                        <input type="submit" value="Enviar" class="form_btn">
+                    </fieldset>
+                </form>
+
+                <address class="form_add">
+                    <p>Endereço 1234 Somewhere Rd. Nashville, TN 00000 United States</p>
+                    <p>Telefone 000-000-000</p>
+                    <p>Email email@server.com</p>
+                </address>
+            </div>
+
+        </section>
+
+        <section>
+            <form class="form">
+                <fieldset class="form-fieldset quiz">
+                    <legend class="subject-title legend">Quiz</legend>
+
+                    <label for="select" class="form_label">Qual é a sua linguagem favorita?</label>
+                    <select name="select" id="select" class="form_select">
+                        <option value="" selected>Selecione</option>
+                        <option value="Js">JavaScript</option>
+                        <option value="py">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="C#">C#</option>
+                    </select>
+
+                    <label class="fit">
+                        Baixa Prioridade
+                        <input class="form_radio"  type="radio" name="rad" id="rad">
+                    </label>
+
+                    <label class="fit">
+                        Média Prioridade
+                        <input class="form_radio"  type="radio" name="rad" id="rad">
+                    </label>
+
+                    <label class="fit">
+                        Alta Prioridade
+                        <input class="form_radio" type="radio" name="rad" id="rad">
+                    </label>
+
+                    <label for="copy" class="fit">
+                        <input type="checkbox" name="copy" id="copy" class="chk">
+                        Envie-me uma copia!
+                    </label>
+
+                    <label for="robo" class="fit">
+                        <input type="checkbox" name="robo" id="robo" class="chk">
+                        Eu sou humano!
+                    </label>
+
+                    <div class="container_btn">
+                        <input type="reset" value="Limpar" class="btn btn-full">
+                        <input type="submit" value="Enviar" class="btn btn-full btn-stroke">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>

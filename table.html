@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Projeto My Components</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="header--nav">
+
+            <a href="#" class="nav--logo">
+                <img src="imagens/perfil.png" alt="omanolá">
+            </a>
+
+            <ul class="nav-menu">
+                <li class="nav--menu__item"><a href="index.html">Home</a></li>
+                <li class="nav--menu__item"><a href="tipografia.html">Tipografia</a></li>
+                <li class="nav--menu__item"><a href="cards.html">Cards</a></li>
+                <li class="nav--menu__item"><a href="listas.html">Listas</a></li>
+                <li class="nav--menu__item"><a href="form.html">Formularios</a></li>
+                <li class="nav--menu__item"><a href="button.html">Botões</a></li>
+                <li class="nav--menu__item"><a href="table.html">Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="title">My contents</h1>
+
+        <article class="highlight subject">
+            <h2 class="subject-title">Tabelas</h2>
+        
+            <p>As tabelas são usadas para apresentar dados de forma estruturada. Não deve ser usada para outros objetivos que não seja a representação de dados ou informações. Possui as seguintes variações:</p>
+        </article>
+
+        <section>
+            <h3 class="subject-title">tabela padrão</h3>
+
+            <table class="table">
+                <thead class="table_head">
+                    <tr>
+                        <th class="table_head_item">name</th>
+                        <th class="table_head_item">title</th>
+                        <th class="table_head_item">email</th>
+                    </tr>
+                </thead>
+
+                <tbody class="table_body">
+                    <tr>
+                        <td class="table_body_item">segun adebayo</td>
+                        <td class="table_body_item">Founder</td>
+                        <td class="table_body_item">sage@serfrontend.com</td>
+                    </tr>
+                    <tr>
+                        <td class="table_body_item">Mark Chandler</td>
+                        <td class="table_body_item">Developer</td>
+                        <td class="table_body_item">Mark@serfrontend.com</td>
+                    </tr>
+                    <tr>
+                        <td class="table_body_item">Lazar Nikolov</td>
+                        <td class="table_body_item">DevRel</td>
+                        <td class="table_body_item">Lazar@serfrontend.com</td>
+                    </tr>
+                    <tr>
+                        <td class="table_body_item">Javier Alaves</td>
+                        <td class="table_body_item">Designer</td>
+                        <td class="table_body_item">Jav@serfrontend.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h3 class="subject-title">tabela Zebrada</h3>
+ 
+            <table class="table zebra">
+                <thead class="table_head">
+                    <tr>
+                        <th class="table_head_item">name</th>
+                        <th class="table_head_item">title</th>
+                        <th class="table_head_item">email</th>
+                    </tr>
+                </thead>
+
+                <tbody class="table_body">
+                    <tr>
+                        <td class="table_body_item">segun adebayo</td>
+                        <td class="table_body_item">Founder</td>
+                        <td class="table_body_item">sage@serfrontend.com</td>
+                    </tr>
+                    <tr>
+                        <td class="table_body_item">Mark Chandler</td>
+                        <td class="table_body_item">Developer</td>
+                        <td class="table_body_item">Mark@serfrontend.com</td>
+                    </tr>
+                    <tr>
+                        <td class="table_body_item">Lazar Nikolov</td>
+                        <td class="table_body_item">DevRel</td>
+                        <td class="table_body_item">Lazar@serfrontend.com</td>
+                    </tr>
+                    <tr>
+                        <td class="table_body_item">Javier Alaves</td>
+                        <td class="table_body_item">Designer</td>
+                        <td class="table_body_item">Jav@serfrontend.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h3 class="subject-title">tabela zebrada com separação vertical</h3>
+
+            <table class="table zebra table-vert">
+                <thead class="table_head">
+                    <tr>
+                        <th class="table_head_item">name</th>
+                        <th class="table_head_item">title</th>
+                        <th class="table_head_item">email</th>
+                    </tr>
+                </thead>
+
+                <tbody class="table_body">
+                    <tr>
+                        <td class="table_body_item">segun adebayo</td>
+                        <td class="table_body_item">Founder</td>
+                        <td class="table_body_item">sage@serfrontend.com</td>
+                    </tr>
+                    <tr>
+                        <td class="table_body_item">Mark Chandler</td>
+                        <td class="table_body_item">Developer</td>
+                        <td class="table_body_item">mark@serfrontend.com</td>
+                    </tr>
+                    <tr>
+                        <td class="table_body_item">Lazar Nikolov</td>
+                        <td class="table_body_item">DevRel</td>
+                        <td class="table_body_item">lazar@serfrontend.com</td>
+                    </tr>
+                    <tr>
+                        <td class="table_body_item">Javier Alaves</td>
+                        <td class="table_body_item">Designer</td>
+                        <td class="table_body_item">mav@serfrontend.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>

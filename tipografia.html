@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Projeto My Components</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="header--nav">
+
+            <a href="#" class="nav--logo">
+                <img src="imagens/perfil.png" alt="omanolá">
+            </a>
+
+            <ul class="nav-menu">
+                <li class="nav--menu__item"><a href="index.html">Home</a></li>
+                <li class="nav--menu__item"><a href="tipografia.html">Tipografia</a></li>
+                <li class="nav--menu__item"><a href="cards.html">Cards</a></li>
+                <li class="nav--menu__item"><a href="listas.html">Listas</a></li>
+                <li class="nav--menu__item"><a href="form.html">Formularios</a></li>
+                <li class="nav--menu__item"><a href="button.html">Botões</a></li>
+                <li class="nav--menu__item"><a href="table.html">Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 class="title">My contents</h1>
+
+        <article class="highlight subject">
+            <h2 class="subject-title">Tipografia</h2>
+            <p>a tipografia transmite nossas definições de tamanhos e espaçamentos e deve ser utilizada respeitando a hierarquia dos elementos na interface</p>
+        </article>
+
+        <section >
+            <h3 class="subject-title">Elementos</h2>
+                <article class="subject">
+                    <h4 class="subject-title">Textos</h4>
+
+                    <p>Esse texto esta <b>escrito</b> em negrito e esse texto é um <strong>texto forte</strong>.</p>
+                    <p>Esse texto está em <i>itálico</i> e este está com <em>ênfase</em>.</p>
+                    <p>Isto é um texto escrito de forma <span class="wrong">erada</span> e isso é um <a href="#">link</a></p>
+                </article>
+
+                <article class="subject">
+                    <h4 class="subject-title">Sobreescrito e subscrito</h4>
+
+                    <p>3<sup>2</sup> é igual á 9</p>
+                    <p>A formula da água é: H<sub>2</sub>O</p>
+                </article>
+
+
+                <article class="subject">
+                    <h4 class="subject-title">Abreviações</h4>
+
+                    <p>Para criar páginas na web é necessario aprender sobre <abbr title="HyperText Markup Language">HTML</abbr></p>
+
+                    <p>para criar paginas web precisamos aprender  <a href="#html">HTML</a></p>
+
+                    <p>o <dfn id="html"><abbr title="HyperText Markup Language">HTML</abbr></dfn> é a principal linguagem da web onde podemos incluir nosso conteudo de forma sêmantica </p>
+                </article>
+
+                <article class="subject">
+                    <h4 class="subject-title">Citações</h4>
+
+                    <blockquote>
+                        <p>o ruim não é ter trabalho, mas sim ter que trabalhar</p>
+                        <cite>Seu Madruga</cite>
+                    </blockquote>
+
+                    <blockquote cite="http://developer.mozilla.org">
+                        <p>Esta é uma citação tirada da Mozilla Developer Center.</p>
+                        <cite>MDN</cite>
+                    </blockquote>
+
+                    <p>Segundo seu madruga: <q>a vingança nunca é plena, mata a alma e a envenena!</q></p>
+
+                </article>
+
+                <article class="subject">
+                    <h4 class="subject-title">Computer things~</h4>
+
+                    <p>A propriedade <code>background-color</code> serve para colocar uma cor de fundo no css</p>
+
+
+                    <pre>
+                        este é um texto
+                        pré-formatado
+                    </pre>
+
+
+                    <p>o body está com a seguinte formatação no css:</p>
+                    <pre>
+                        <code>
+body{
+    min-height: 100vh;
+    font: var(--font-inter);
+    display: flex;
+    line-height: 1.7rem;
+}
+                        </code>
+                    </pre>
+                    
+                                    <p>eu estava tentando inicar meu computador, mas eu recebi essa porra de mensagem</p>
+                                    <p>
+                                        <samp>Teclado não encontrado <br> Pressione F11 para continuar</samp>
+                                    </p>
+                    
+                                    <p>Pressione as teclas <kbd>CTRL</kbd> + <kbd>C</kbd> para copiar</p>
+                </article>
+
+
+                <article class="subject">
+                    <h4 class="subject-title">Datas e horarios</h4>
+
+                    <p>o evento ocorrerá em <time datetime="2015-11-10">10 de novembro</time></p>
+                    <p>o evento ocorrerá em <del datetime="2015-11-01">10 de novembro</del> <ins><time datetime="2015-11-10T22:00-0300">11 de novembro ás 22:00 horas</time></ins></p>
+                </article>
+
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
